@@ -1,0 +1,6 @@
+name: 'Kubectl for EKS'
+author: Tuong Le
+description: Action for running kubectl command to update EKS cluster
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
