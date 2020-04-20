@@ -1,6 +1,9 @@
-name: 'Kubectl for EKS'
+name: 'Kubectl for AWS EKS'
 author: Tuong Le
 description: Action for running kubectl command to update EKS cluster
+branding:
+  color: 'white'
+  icon: 'command'
 runs:
   using: 'docker'
   image: 'Dockerfile'
